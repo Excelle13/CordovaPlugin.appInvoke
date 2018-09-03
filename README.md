@@ -1,5 +1,5 @@
 
-# cordova plugin startapp
+# CordovaPlugin.appInvoke
 
 Phonegap plugin for check or launch other application, get extras in phonegap app.
 
@@ -11,18 +11,13 @@ Last version 6.1.5
 
 # Install
 
-> Install: ```cordova plugin add com.lampa.startapp```
+
 >
-> Install: ```cordova plugin add https://github.com/lampaa/com.lampa.startapp.git```
+> Install: ```cordova plugin add https://github.com/Excelle13/CordovaPlugin.appInvoke.git```
 >
-> Delete:  ```cordova plugin rm com.lampa.startapp```
->
-> Delete previos version:  ```cordova plugin rm org.apache.cordova.startapp```
+
 
 [Manually installation for Android.](/MANUALLY_INSTALL.md)
-
-
-**NEW!** [Script builder.](http://lampaa.github.io/com.lampa.startapp/index.html) Create script with UI builder.
 
 
 # ANDROID
@@ -139,13 +134,7 @@ var sApp = startApp.set({
 }).start();
 ```
 
-_Set application as intent value and flag ([issue](https://github.com/lampaa/com.lampa.startapp/issues/50))_:
-```js
-var sApp = startApp.set({
-	"intent": "com.shazam.android.intent.actions.START_TAGGING",
-	"flags": ["FLAG_ACTIVITY_NEW_TASK"]
-}).start();
-```
+
 
 _Set application as package and activity_:
 ```js
